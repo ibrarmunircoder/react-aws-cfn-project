@@ -10,7 +10,7 @@ phases:
       nodejs: 16
     commands:
       - echo "📦 installing packages..."
-      - npm install --omit=dev
+      - npm install
   pre_build:
     commands:
       - echo "⚙️ Testing..."
